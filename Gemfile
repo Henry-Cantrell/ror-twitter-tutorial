@@ -5,7 +5,7 @@ ruby '2.7.1'
 
 #Project dependencies
 
-gem 'bulma-rails'
+gem "bulma-rails", "~> 0.9.1"
 gem 'simple_form'
 #User avatar gem
 gem 'gravatar_image_tag'
