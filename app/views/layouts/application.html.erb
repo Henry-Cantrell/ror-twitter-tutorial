@@ -42,6 +42,8 @@
 				</div>
 			</div>
   	</nav>
+	  <%= link_to "Sign out", destroy_user_session_path, method: :delete, class:"button is-info" %>
+
 
     <%= yield %>
   </body>
